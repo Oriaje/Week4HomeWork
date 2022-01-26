@@ -1,0 +1,32 @@
+#welcome-section {
+  text-align: center;
+  display: none;
+}
+
+#welcome-sectino #welcome-sectio.header-title {
+  text-align: center;
+}
+
+#welcome-section .header-subtitle {
+  text-align: center;
+}
+
+#welcome-section .start-btn {
+  color: #ffff;
+  background-color: #7e2a7a;
+}
+
+#question1-section {
+  display: none;
+}
+
+.question-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.question-container .question-title {
+  font-size: 24px;
+  font-weight: bold;
+}
