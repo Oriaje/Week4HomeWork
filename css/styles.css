@@ -1,6 +1,5 @@
 #welcome-section {
   text-align: center;
-  display: none;
 }
 
 #welcome-sectino #welcome-sectio.header-title {
@@ -16,7 +15,7 @@
   background-color: #7e2a7a;
 }
 
-#question1-section {
+#question-sections {
   display: none;
 }
 
@@ -29,4 +28,31 @@
 .question-container .question-title {
   font-size: 24px;
   font-weight: bold;
+}
+
+.question-container .question-options {
+  margin-left: 0;
+  padding-left: 0;
+}
+.question-container .question-options li {
+  color: #ffff;
+  background-color: #7e2a7a;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.question-container .answer-container {
+  border-top: 1px #607d8b solid;
+  font-weight: bold;
+}
+
+.timer-section {
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 24px;
+  font-weight: 600;
+  color: #161aff;
 }

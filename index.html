@@ -4,27 +4,34 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--linking the css style sheet-->
     <link rel="stylesheet" href="css\styles.css" />
+    <!--linking the jss style sheet-->
     <script src="js\script.js"></script>
-    <title>Document</title>
+    <!--title the page-->
+    <title>Code Quiz</title>
   </head>
-  <body onload="onPageLoad()">
+  <body>
+    <!--setting a div for the first page to see when you enter the site-->
     <div id="welcome-section">
       <h2 class="header-title">CODING QUIZ CHALLENGE</h2>
-
+      <!---setting the instruction for the quiz-->
       <p class="header-subtitle">
         Try to asnwer the the following code-related questions within the time
-        limit.ep in mind that the incrorrect aswers will pernalize your time by
-        10 seconds
+        limit. Have in mind that incrorrect aswers will be penalise by reducing
+        your time by 10 seconds.
       </p>
+      <!--create a link to start the quiz-->
       <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
     </div>
-
-    <div id="question1-section" class="question-container">
-      <p class="question-title">This is my question</p>
-      <ul clas="question-options">
-        <li></li>
-      </ul>
+    <!--setting up a div fro the question sections-->
+    <div id="question-sections">
+      <div class="timer-section">
+        <span class="time">Time</span>
+        <span id="clock"></span>
+      </div>
+      <!--setting up a div for the contents of the question-->
+      <div id="question-section-content"></div>
     </div>
   </body>
 </html>
